@@ -1,0 +1,21 @@
+abstract class bike {
+	bike(){
+	System.out.println("bike is run");}
+
+abstract void run();
+	public void changegear(){
+	System.out.println("abstract bike change gear");
+}
+}
+public class Honda1 extends bike{
+	public static void main(String[]args){
+	bike B=new Honda();
+	B.changegear();
+	
+	B.run();
+	}
+	 public void run(){
+	System.out.println("running of bike honda");
+	}
+}
+
