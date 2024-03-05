@@ -6,4 +6,5 @@ public class Assignment0202{
 		System.out.println("reminder is "+num1/num2);
 	}
 }
+// addition of two numbers
 
